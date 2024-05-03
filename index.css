@@ -124,6 +124,10 @@ p {
   text-align: center;
 }
 
+.last-image {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   nav {
     padding: 40px 100px;
