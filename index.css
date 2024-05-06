@@ -28,7 +28,7 @@ nav {
 
 nav.sticky {
   padding: 18px 20px;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
   color: rgba(0, 0, 0, 1);
 }
 
@@ -57,7 +57,9 @@ nav.sticky {
 }
 
 .lambdaLogo {
-  background-color: rgba(255, 255, 255, 1);
+  width: 160px;
+  height: 25px;
+  margin-top: -3px;
 }
 
 main {
@@ -128,7 +130,52 @@ p {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1185px) and (min-width: 768px) {
+  #desktop {
+    display: none;
+  }
+
+  #mobile {
+    background-color: rgba(84, 86, 243, 1);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+
+  .mobile-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    transition: 0.6s;
+  }
+
+  #mainContent {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hyperImage {
+    width: 900px;
+    height: 900px;
+    margin-top: -250px;
+  }
+
+  #linus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -80px;
+  }
+  .install {
+    height: 30rem;
+    width: 30rem;
+    margin-top: -90px;
+  }
+}
+
+@media screen and (min-width: 1186px) {
   nav {
     padding: 40px 100px;
     font-weight: bold;
@@ -151,7 +198,9 @@ p {
   }
 
   .lambdaLogo {
-    background-color: rgba(255, 255, 255, 1);
+    width: 160px;
+    height: 50px;
+    margin-top: -13px;
   }
 
   .desktop-link {
