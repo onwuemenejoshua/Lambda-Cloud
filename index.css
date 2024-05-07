@@ -132,21 +132,37 @@ p {
 
 @media screen and (max-width: 1185px) and (min-width: 768px) {
   #desktop {
-    display: none;
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
   }
 
-  #mobile {
-    background-color: rgba(84, 86, 243, 1);
-    padding: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-  }
-
-  .mobile-link {
+  .desktop-link {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
     position: relative;
     transition: 0.6s;
+    font-size: 10px;
+  }
+
+  #mobile {
+    display: none;
+  }
+
+  #demo {
+    border: 1px solid rgba(162, 182, 255, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  #free {
+    background-color: rgba(84, 86, 243, 1);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: -10px;
   }
 
   #mainContent {
